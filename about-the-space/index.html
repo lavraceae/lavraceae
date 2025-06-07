@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="About me Bicacarte" />
+    <meta name="author" content="Laura Bernabeu Armas" />
+    <link rel="stylesheet" href="./layout.css" />
+    <link rel="stylesheet" href="./skin.css" />
+  </head>
+
+  <body>
+    <header class="header_ly header_sk">
+      <div class="container_pre">
+        <ul class="presentacion_ly">
+          <!--logo + nombre de la página usando flexbox-->
+          <li>
+            <img
+              src="../photos/logo_bicacarte.jpg"
+              alt="logo_de_bicacarte"
+              style="height: 10vh; min-height: 50px"
+            />
+          </li>
+          <li class="txt_tit_header_sk txt_tit_header_ly"><p>Bicacarte</p></li>
+        </ul>
+      </div>
+      <div class="container_men">
+        <ul class="menu_ly">
+          <!--menú flexbox-->
+          <li style="list-style-type: none" class="txt_menu_sk">
+            <div class="menu_icon_contain_ly menu_icon_contain_sk">
+              <div class="menu_icon_item_ly menu_icon_item_sk"></div>
+              <div class="menu_icon_item_ly menu_icon_item_sk"></div>
+              <div class="menu_icon_item_ly menu_icon_item_sk"></div>
+              <div class="menu_desplega_ly menu_desplega_sk">
+                <a class="txt_menu_desplega_sk" href="../cocina/index.html"
+                  >Cocina</a
+                >
+                <a class="txt_menu_desplega_sk" href="../jardin/index.html"
+                  >Jardín</a
+                >
+                <a class="txt_menu_desplega_sk" href="../decoracion/index.html"
+                  >Decoración</a
+                >
+              </div>
+            </div>
+          </li>
+          <li style="list-style-type: none">
+            <a class="txt_menu_sk" href="../home/index.html">Home</a>
+          </li>
+          <li style="list-style-type: none">
+            <a class="txt_menu_sk" href="../about-me/index.html">Conóceme</a>
+          </li>
+          <li style="list-style-type: none">
+            <a class="txt_menu_sk" href="../shop/index.html">Tienda</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!--Área marcada por grid-->
+    <main class="main_ly main_sk">
+      <div class="sheet_container_ly">
+        <div class="row1_left_sheet_ly">
+          <h1>El espacio</h1>
+          <br />
+          <br />
+          <br />
+          <h6>
+            Creación en presencia. <br />
+            Piezas con intención para todxs.
+          </h6>
+
+          <br />
+          <br />
+          <p style="width: 80%">
+            Este espacio se empezó a concebir en 2025, un año que marcaba un
+            final y un inicio en muchos aspectos de mi vida* Entre otros
+            movimientos, tomé más consciencia de mis propósitos y aquello que me
+            hace feliz. Conecté mejor con mi energía femenina y con el deseo de
+            sentir presencia en los actos cotidianos. Así que le di una
+            oportunidad a la cerámica.
+            <br />
+            <br />
+            Cada pieza está hecha con un propósito y funcionalidad. Los
+            materiales son diversos, la mayoría de ellos orgánicos y libres de
+            tóxicos. Los barros son extraídos de los bosques de Tenerife para
+            colecciones especiales en honor a las tradiciones y sabidurías de
+            lxs guanches, antiguxs indígenas de las islas.
+            <br />
+            <br />
+            *(Bastánte sincrónico, 2+0+2+5 = 9, este número marca el final de la
+            numeración decimal, en numerología indica el final de una etapa y el
+            comienzo de otra)
+          </p>
+        </div>
+        <div class="row2_left_sheet_ly">
+          <br />
+          <br />
+          <br />
+          <h5>Contáctame</h5>
+          <br />
+          <br />
+          <form>
+            <div class="input_flex_ly">
+              <div>
+                <label class="txt_form_sk" for="nombre">Primer nombre</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Tu nombre"
+                />
+              </div>
+              <div>
+                <label class="txt_form_sk" for="apellido">Apellidos</label>
+                <input
+                  type="text"
+                  id="apellido"
+                  name="apellido"
+                  placeholder="Tus apellidos"
+                />
+              </div>
+            </div>
+
+            <label class="txt_form_sk" for="email">Dirección email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Tu email"
+            />
+            <br /><br />
+            <label class="txt_form_sk" for="mensaje">Tu mensaje</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              placeholder="Escribe tu pregunta o tu mensaje"
+            ></textarea>
+            <br /><br />
+            <button type="submit">Aceptar</button>
+          </form>
+        </div>
+
+        <div class="row1_right_sheet_ly">
+          <img
+            style="width: 100%"
+            src="../photos/jarrones_jardin.jpg"
+            alt="Jarrones en un jardín."
+          />
+        </div>
+      </div>
+    </main>
+
+    <!--Footer marcado por grid-->
+    <footer class="footer_ly footer_sk">
+      <p class="signature_ly txt_signature_sk">Bicacarte</p>
+
+      <ul class="aboutus_ly">
+        <li class="txt_tit_about_sk"><p>El espacio</p></li>
+        <li class="txt_about_sk">
+          <a
+            href="../localizacion/index.html"
+            style="text-decoration: none; color: rgba(137, 44, 3, 77)"
+            target="_blank"
+            >Dónde encontrarme</a
+          >
+        </li>
+        <li class="txt_about_sk">
+          <a
+            href="./index.html"
+            style="text-decoration: none; color: rgba(137, 44, 3, 77)"
+            target="_blank"
+            >Sobre el espacio</a
+          >
+        </li>
+        <li class="txt_about_sk">
+          <a
+            href="../about-me/index.html"
+            style="text-decoration: none; color: rgba(137, 44, 3, 77)"
+            target="_blank"
+            >Sobre mí</a
+          >
+        </li>
+      </ul>
+
+      <table class="RRSS_ly">
+        <tr>
+          <td>
+            <a href="https://es.pinterest.com/"
+              ><img
+                src="../photos/pinterest_logo_24x24(1).png"
+                alt="logo_pinterest"
+            /></a>
+          </td>
+          <td>
+            <a href="https://www.instagram.com/bicacarte/"
+              ><img src="../photos/Icon_instagram.png" alt="logo_instagram"
+            /></a>
+          </td>
+          <td>
+            <a href="https://www.facebook.com/?locale=es_ES"
+              ><img src="../photos/Icon_facebook.png" alt="logo_facebook"
+            /></a>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Inter-VariableFont_opsz\,wght";
+  src: url("../fonts/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter-Italic-VariableFont_opsz\,wght";
+  src: url("../fonts/Inter-Italic-VariableFont_opsz\,wght.ttf")
+    format("truetype");
+}
+
+.header_sk {
+  background-color: rgb(254, 237, 183);
+}
+
+.txt_tit_header_sk {
+  font-family: "Inter-VariableFont_opsz\,wght";
+  font-size: 120%;
+  color: rgb(112, 34, 0);
+  list-style-type: none;
+}
+
+.txt_menu_sk {
+  font-family: "Inter-VariableFont_opsz\,wght";
+  font-size: 80%;
+  color: rgb(112, 34, 0);
+  text-decoration: none;
+}
+
+.menu_icon_contain_sk {
+  background-color: rgb(112, 34, 0);
+}
+
+.menu_icon_item_sk {
+  background-color: rgb(254, 237, 183);
+}
+
+.txt_menu_desplega_sk {
+  font-family: "Inter-VariableFont_opsz\,wght";
+  font-size: 80%;
+  color: rgb(254, 237, 183);
+  text-decoration: none;
+}
+
+.main_sk {
+  background-color: rgb(255, 245, 215);
+}
+
+h1 {
+  font-family: "Inter-VariableFont_opsz\,wght";
+  font-size: 355%;
+  font-weight: bold;
+  color: rgb(112, 34, 0);
+}
+
+h6 {
+  font-family: "Inter-VariableFont_opsz\,wght";
+  font-size: 150%;
+  font-weight: 400;
+  color: rgba(112, 34, 0, 0.67);
+}
+
+h5 {
+  font-family: "Inter-VariableFont_opsz\,wght";
+  font-size: 200%;
+  font-weight: 600;
+  color: rgb(112, 34, 0);
+}
+
+p {
+  font-family: "Inter-VariableFont_opsz\,wght";
+  font-size: 110%;
+  color: rgb(112, 34, 0);
+}
+
+.txt_form_sk {
+  font-family: "Inter-VariableFont_opsz\,wght";
+  font-size: 110%;
+  font-weight: 400;
+  color: rgb(112, 34, 0);
+}
+
+label {
+  font-weight: 600;
+}
+
+input,
+textarea {
+  border: 1.5px solid;
+  border-radius: 8px;
+  border-color: rgb(112, 34, 0);
+  font-family: "Inter-VariableFont_opsz\,wght";
+  font-size: 100%;
+  color: rgba(112, 34, 0, 0.86);
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(186, 57, 0);
+  font-family: "Inter-VariableFont_opsz\,wght";
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(137, 44, 3);
+}
+
+.footer_sk {
+  background-color: rgb(254, 237, 183);
+}
+
+.txt_signature_sk {
+  font-family: "Inter-VariableFont_opsz\,wght";
+  font-size: 103%;
+  color: rgb(112, 34, 0);
+}
+
+.txt_tit_about_sk {
+  font-family: "Inter-VariableFont_opsz\,wght";
+  font-size: 75%;
+  color: rgb(112, 34, 0);
+  list-style-type: none;
+}
+
+.txt_about_sk {
+  font-family: "Inter-VariableFont_opsz\,wght";
+  font-size: 75%;
+  color: rgba(137, 44, 3, 0.77);
+  list-style-type: none;
+}
