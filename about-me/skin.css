@@ -1,26 +1,16 @@
-@font-face {
-    font-family: "Inter-VariableFont-opsz\,wght";
-    src: url("../fonts/Inter-VariableFont-opsz\,wght.ttf") format("truetype");
-    
-}
-@font-face {
-    font-family: "Inter-Italic-VariableFont-opsz\,wght";
-    src: url("../fonts/Inter-Italic-VariableFont-opsz\,wght.ttf") format("truetype");
-}
-
 .header-sk{
     background-color: rgb(254, 237, 183) ;
 }
 
 .txt-tit-header-sk{
-    font-family: "Inter-VariableFont-opsz\,wght";
+    font-family: "inter-variable-opsz";
     font-size: 120%;
     color: rgb(112, 34, 0);
     list-style-type: none;
 }
 
 .txt-menu-sk{
-    font-family: "Inter-VariableFont-opsz\,wght";
+    font-family: "inter-variable-opsz";
     font-size: 80%;
     color: rgb(112, 34, 0);
     text-decoration: none;
@@ -35,7 +25,7 @@
 }
 
 .txt-menu-desplega-sk{
-    font-family: "Inter-VariableFont-opsz\,wght";
+    font-family: "inter-variable-opsz";
     font-size: 80%;
     color:  rgb(254, 237, 183);
     text-decoration: none;
@@ -46,27 +36,27 @@
 }
 
 h1{
-    font-family: "Inter-VariableFont-opsz\,wght";
+    font-family: "inter-variable-opsz";
     font-size: 355%;
     font-weight: bold;
     color: rgb(112, 34, 0);
 }
 
 h5{
-    font-family: "Inter-VariableFont-opsz\,wght";
+    font-family: "inter-variable-opsz";
     font-size: 200%;
     font-weight: 600;
     color: rgb(112, 34, 0);
 }
 
 p{
-    font-family: "Inter-VariableFont-opsz\,wght";
+    font-family: "inter-variable-opsz";
     font-size: 110%;
     color: rgb(112, 34, 0);
 }
 
 .txt-form-sk{
-    font-family: "Inter-VariableFont-opsz\,wght";
+    font-family: "inter-variable-opsz";
     font-size: 110%;
     font-weight: 400;
     color: rgb(112, 34, 0);
@@ -80,7 +70,7 @@ input, textarea{
     border: 1.5px solid;
     border-radius: 8px;
     border-color: rgba(112, 34, 0, 100);
-    font-family: "Inter-VariableFont-opsz\,wght";
+    font-family: "inter-variable-opsz";
     font-size: 100%;
     color: rgba(112, 34, 0, 0.86);
     box-sizing: border-box;
@@ -88,7 +78,7 @@ input, textarea{
 
 button{
     background-color: rgb(186, 57, 0);
-    font-family: "Inter-VariableFont-opsz\,wght";
+    font-family: "inter-variable-opsz";
     color: white;
     font-size: 18px;
     border-radius: 8px;
@@ -104,20 +94,20 @@ button:hover{
 }
 
 .txt-signature-sk{
-    font-family: "Inter-VariableFont-opsz\,wght";
+    font-family: "inter-variable-opsz";
     font-size: 103%;
     color: rgb(112, 34, 0);
 }
 
 .txt-tit-about-sk{
-    font-family: "Inter-VariableFont-opsz\,wght";
+    font-family: "inter-variable-opsz";
     font-size: 75%;
     color: rgb(112, 34, 0);
     list-style-type: none;
 }
 
 .txt-about-sk{
-    font-family: "Inter-VariableFont-opsz\,wght";
+    font-family: "inter-variable-opsz";
     font-size: 75%;
     color: rgba(137, 44, 3, 0);
     list-style-type: none;

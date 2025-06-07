@@ -1,26 +1,17 @@
-@font-face {
-  font-family: "Inter-VariableFont-opsz\,wght";
-  src: url("../fonts/Inter-VariableFont-opsz\,wght.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Inter-Italic-VariableFont-opsz\,wght";
-  src: url("../fonts/Inter-Italic-VariableFont-opsz\,wght.ttf")
-    format("truetype");
-}
 
 .header-sk {
   background-color: rgb(254, 237, 183);
 }
 
 .txt-tit-header-sk {
-  font-family: "Inter-VariableFont-opsz\,wght";
+  font-family: "inter-variable-opsz";
   font-size: 120%;
   color: rgb(112, 34, 0);
   list-style-type: none;
 }
 
 .txt-menu-sk {
-  font-family: "Inter-VariableFont-opsz\,wght";
+  font-family: "inter-variable-opsz";
   font-size: 80%;
   color: rgb(112, 34, 0);
   text-decoration: none;
@@ -35,7 +26,7 @@
 }
 
 .txt-menu-desplega-sk {
-  font-family: "Inter-VariableFont-opsz\,wght";
+  font-family: "inter-variable-opsz";
   font-size: 80%;
   color: rgb(254, 237, 183);
   text-decoration: none;
@@ -49,7 +40,7 @@
 
 .txt-tit-portad-sk {
   color: rgb(254, 237, 183);
-  font-family: "Inter-VariableFont-opsz\,wght";
+  font-family: "inter-variable-opsz";
   font-size: 450%;
   font-weight: bold;
 }
@@ -58,7 +49,7 @@
   background-color: rgb(137, 44, 3);
   border-radius: 8%;
   color: rgb(254, 237, 183);
-  font-family: "Inter-VariableFont-opsz\,wght";
+  font-family: "inter-variable-opsz";
   font-size: 150%;
   text-decoration: none;
 }
@@ -68,14 +59,14 @@
 }
 
 .txt-h2-sk {
-  font-family: "Inter-VariableFont-opsz\,wght";
+  font-family: "inter-variable-opsz";
   font-size: 250%;
   font-weight: bold;
   color: rgb(112, 34, 0);
 }
 
 .txt-tit-item-ti-sk {
-  font-family: "Inter-VariableFont-opsz\,wght";
+  font-family: "inter-variable-opsz";
   font-size: 110%;
   font-weight: bold;
   color: rgb(112, 34, 0);
@@ -83,13 +74,13 @@
 }
 
 .txt-desc-item-ti-sk {
-  font-family: "Inter-VariableFont-opsz\,wght";
+  font-family: "inter-variable-opsz";
   font-size: 100%;
   color: rgb(112, 34, 0);
 }
 
 .txt-prec-item-ti-sk {
-  font-family: "Inter-VariableFont-opsz\,wght";
+  font-family: "inter-variable-opsz";
   font-size: 100%;
   font-weight: bold;
   color: rgb(112, 34, 0);
@@ -100,20 +91,20 @@
 }
 
 .txt-signature-sk {
-  font-family: "Inter-VariableFont-opsz\,wght";
+  font-family: "inter-variable-opsz";
   font-size: 103%;
   color: rgb(112, 34, 0);
 }
 
 .txt-tit-about-sk {
-  font-family: "Inter-VariableFont-opsz\,wght";
+  font-family: "inter-variable-opsz";
   font-size: 75%;
   color: rgb(112, 34, 0);
   list-style-type: none;
 }
 
 .txt-about-sk {
-  font-family: "Inter-VariableFont-opsz\,wght";
+  font-family: "inter-variable-opsz";
   font-size: 75%;
   color: rgba(137, 44, 3, 0.77);
   list-style-type: none;
