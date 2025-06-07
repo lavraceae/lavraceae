@@ -3,34 +3,34 @@
   padding: 0;
 }
 
-.header_ly {
+.header-ly {
   padding: 1% 3% 0.5% 0%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.container_pre {
+.container-pre {
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
-.container_men {
+.container-men {
   grid-column-start: 2;
   grid-column-end: 3;
 }
 
-.presentacion_ly {
+.presentacion-ly {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 
-.txt_tit_header_ly {
+.txt-tit-header-ly {
   margin-top: 4%;
   margin-bottom: 4%;
 }
 
-.menu_ly {
+.menu-ly {
   margin-top: 4%;
   margin-bottom: 4%;
   display: flex;
@@ -38,12 +38,12 @@
   flex-wrap: nowrap;
 }
 
-.menu_ly > li {
+.menu-ly > li {
   margin-right: 1.5%;
   margin-left: 1.5%;
 }
 
-.menu_icon_contain_ly {
+.menu-icon-contain-ly {
   height: 16.5px;
   width: 18px;
   padding-top: 0.05px;
@@ -52,7 +52,7 @@
   transition-duration: 2s;
 }
 
-.menu_icon_item_ly {
+.menu-icon-item-ly {
   position: relative;
   margin: 2px;
   height: 3px;
@@ -60,71 +60,71 @@
   transition-duration: 2s;
 }
 
-.menu_desplega_ly {
+.menu-desplega-ly {
   opacity: 0;
   transition-duration: 2s;
 }
 
 /*revisar este conjunto de clases para que el resto de clase funcionen*/
-.menu_icon_contain_ly:hover {
+.menu-icon-contain-ly:hover {
   height: 70px;
   width: 60px;
 }
-.menu_icon_contain_ly:hover .menu_desplega_ly {
+.menu-icon-contain-ly:hover .menu-desplega-ly {
   opacity: 1;
 }
 
 /*estas clases de la transición del icono funcionan*/
 
-.menu_icon_contain_ly:hover .menu_icon_item_ly:nth-child(1) {
+.menu-icon-contain-ly:hover .menu-icon-item-ly:nth-child(1) {
   transition-timing-function: ease;
   transform: rotate(-90deg);
   left: -20px;
 }
 
-.menu_icon_contain_ly:hover .menu_icon_item_ly:nth-child(2) {
+.menu-icon-contain-ly:hover .menu-icon-item-ly:nth-child(2) {
   transition-delay: 100ms;
   transition-timing-function: ease;
   transform: rotate(-90deg);
   left: -20px;
 }
 
-.menu_icon_contain_ly:hover .menu_icon_item_ly:nth-child(3) {
+.menu-icon-contain-ly:hover .menu-icon-item-ly:nth-child(3) {
   transition-delay: 400ms;
   transition-timing-function: ease;
   transform: rotate(-90deg);
   left: -20px;
 }
 
-.portada_ly {
+.portada-ly {
   min-height: 80vh;
   align-content: center;
   padding: 0 35.5%;
 }
 
-.boton_ly {
+.boton-ly {
   margin-top: 400%;
   padding: 5.5% 2%;
 }
 
-.main_ly {
+.main-ly {
   padding: 2% 3%;
 }
 
-.nueva_colec_ly {
+.nueva-colec-ly {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.item1_nu_col_ly {
+.item1-nu-col-ly {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 
-.row_anima_item2_ly {
+.row-anima-item2-ly {
   margin-top: 10%;
   margin-left: 2%;
   grid-column-start: 1;
@@ -133,7 +133,7 @@
   grid-row-end: 6;
 }
 
-.row_anima_item3_ly {
+.row-anima-item3-ly {
   margin-top: 10%;
   margin-left: 2%;
   grid-column-start: 2;
@@ -142,7 +142,7 @@
   grid-row-end: 6;
 }
 
-.row_anima_item4_ly {
+.row-anima-item4-ly {
   margin-top: 10%;
   margin-left: 2%;
   grid-column-start: 3;
@@ -151,24 +151,24 @@
   grid-row-end: 6;
 }
 
-.imagen_ly {
+.imagen-ly {
   width: 90%;
 }
 
-.txt_parr_nu_col_ly {
+.txt-parr-nu-col-ly {
   width: 30%;
 }
 
-.txt_nltr_ly {
+.txt-nltr-ly {
   width: 400px;
 }
 
-.newsletter_ly {
+.newsletter-ly {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.area_nltr_ly {
+.area-nltr-ly {
   margin-top: 50%;
   padding-top: 10%;
   padding-bottom: 10%;
@@ -176,48 +176,48 @@
   grid-column-end: 2;
 }
 
-.area_foto_ly {
+.area-foto-ly {
   margin-top: 50%;
   grid-column-start: 2;
   grid-column-end: 3;
 }
 
-.suscripcion_ly {
+.suscripcion-ly {
   display: flex;
   width: fit-content;
 }
 
-.suscripcion_ly input {
+.suscripcion-ly input {
   padding: 12px 16px;
   width: 240px;
 }
 
-.suscripcion_ly button {
+.suscripcion-ly button {
   padding: 12px 20px;
 }
 
-.footer_ly {
+.footer-ly {
   padding: 2% 3% 0.3%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
-.signature_ly {
+.signature-ly {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 
-.aboutus_ly {
+.aboutus-ly {
   grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 3;
 }
 
-.RRSS_ly {
+.RRSS-ly {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;

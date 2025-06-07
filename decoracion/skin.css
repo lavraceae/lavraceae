@@ -1,109 +1,110 @@
 @font-face {
-  font-family: "Inter-VariableFont_opsz\,wght";
-  src: url("../fonts/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+  font-family: "Inter-VariableFont-opsz\,wght";
+  src: url("../fonts/Inter-VariableFont-opsz\,wght.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Inter-Italic-VariableFont_opsz\,wght";
-  src: url("../fonts/Inter-Italic-VariableFont_opsz\,wght.ttf")
+  font-family: "Inter-Italic-VariableFont-opsz\,wght";
+  src: url("../fonts/Inter-Italic-VariableFont-opsz\,wght.ttf")
     format("truetype");
 }
 
-.header_sk {
+.header-sk {
   background-color: rgb(254, 237, 183);
 }
 
-.txt_tit_header_sk {
-  font-family: "Inter-VariableFont_opsz\,wght";
+.txt-tit-header-sk {
+  font-family: "Inter-VariableFont-opsz\,wght";
   font-size: 120%;
   color: rgb(112, 34, 0);
   list-style-type: none;
 }
 
-.txt_menu_sk {
-  font-family: "Inter-VariableFont_opsz\,wght";
+.txt-menu-sk {
+  font-family: "Inter-VariableFont-opsz\,wght";
   font-size: 80%;
   color: rgb(112, 34, 0);
   text-decoration: none;
 }
 
-.menu_icon_contain_sk {
+.menu-icon-contain-sk {
   background-color: rgb(112, 34, 0);
 }
 
-.menu_icon_item_sk {
+.menu-icon-item-sk {
   background-color: rgb(254, 237, 183);
 }
 
-.txt_menu_desplega_sk {
-  font-family: "Inter-VariableFont_opsz\,wght";
+.txt-menu-desplega-sk {
+  font-family: "Inter-VariableFont-opsz\,wght";
   font-size: 80%;
   color: rgb(254, 237, 183);
   text-decoration: none;
 }
 
-.portada_sk {
-  background-image: url("..//photos/setita_ceramica_background.jpg");
-  background-size: 2000px;
+.portada-sk {
+  background-image: url("public/assets/backgrounds/capullos-de-bicacaro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.txt_tit_portad_sk {
+.txt-tit-portad-sk {
   color: rgb(254, 237, 183);
-  font-family: "Inter-VariableFont_opsz\,wght";
+  font-family: "Inter-VariableFont-opsz\,wght";
   font-size: 450%;
   font-weight: bold;
 }
 
-.main_sk {
+.main-sk {
   background-color: rgb(255, 245, 215);
 }
 
-.txt_h2_sk {
-  font-family: "Inter-VariableFont_opsz\,wght";
+.txt-h2-sk {
+  font-family: "Inter-VariableFont-opsz\,wght";
   font-size: 250%;
   font-weight: bold;
   color: rgb(112, 34, 0);
 }
 
-.txt_tit_item_ti_sk {
-  font-family: "Inter-VariableFont_opsz\,wght";
+.txt-tit-item-ti-sk {
+  font-family: "Inter-VariableFont-opsz\,wght";
   font-size: 110%;
   font-weight: bold;
   color: rgb(112, 34, 0);
   text-decoration: none;
 }
 
-.txt_desc_item_ti_sk {
-  font-family: "Inter-VariableFont_opsz\,wght";
+.txt-desc-item-ti-sk {
+  font-family: "Inter-VariableFont-opsz\,wght";
   font-size: 100%;
   color: rgb(112, 34, 0);
 }
 
-.txt_prec_item_ti_sk {
-  font-family: "Inter-VariableFont_opsz\,wght";
+.txt-prec-item-ti-sk {
+  font-family: "Inter-VariableFont-opsz\,wght";
   font-size: 100%;
   font-weight: bold;
   color: rgb(112, 34, 0);
 }
 
-.footer_sk {
+.footer-sk {
   background-color: rgb(254, 237, 183);
 }
 
-.txt_signature_sk {
-  font-family: "Inter-VariableFont_opsz\,wght";
+.txt-signature-sk {
+  font-family: "Inter-VariableFont-opsz\,wght";
   font-size: 103%;
   color: rgb(112, 34, 0);
 }
 
-.txt_tit_about_sk {
-  font-family: "Inter-VariableFont_opsz\,wght";
+.txt-tit-about-sk {
+  font-family: "Inter-VariableFont-opsz\,wght";
   font-size: 75%;
   color: rgb(112, 34, 0);
   list-style-type: none;
 }
 
-.txt_about_sk {
-  font-family: "Inter-VariableFont_opsz\,wght";
+.txt-about-sk {
+  font-family: "Inter-VariableFont-opsz\,wght";
   font-size: 75%;
   color: rgba(137, 44, 3, 0.77);
   list-style-type: none;

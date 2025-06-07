@@ -6,3 +6,7 @@
   font-family: "inter-variable-opsz-italic";
   src: url("public/fonts/inter-variable-opsz-italic.ttf") format("truetype");
 }
+
+html {
+  overflow-x: hidden;
+}

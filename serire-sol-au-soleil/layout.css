@@ -3,34 +3,34 @@
   padding: 0;
 }
 
-.header_ly {
+.header-ly {
   padding: 1% 3% 0.5% 0%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.container_pre {
+.container-pre {
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
-.container_men {
+.container-men {
   grid-column-start: 2;
   grid-column-end: 3;
 }
 
-.presentacion_ly {
+.presentacion-ly {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 
-.txt_tit_header_ly {
+.txt-tit-header-ly {
   margin-top: 4%;
   margin-bottom: 4%;
 }
 
-.menu_ly {
+.menu-ly {
   margin-top: 4%;
   margin-bottom: 4%;
   display: flex;
@@ -38,12 +38,12 @@
   flex-wrap: nowrap;
 }
 
-.menu_ly > li {
+.menu-ly > li {
   margin-right: 1.5%;
   margin-left: 1.5%;
 }
 
-.menu_icon_contain_ly {
+.menu-icon-contain-ly {
   height: 16.5px;
   width: 18px;
   padding-top: 0.05px;
@@ -52,7 +52,7 @@
   transition-duration: 2s;
 }
 
-.menu_icon_item_ly {
+.menu-icon-item-ly {
   position: relative;
   margin: 2px;
   height: 3px;
@@ -60,62 +60,62 @@
   transition-duration: 2s;
 }
 
-.menu_desplega_ly {
+.menu-desplega-ly {
   opacity: 0;
   transition-duration: 2s;
 }
 
-.menu_icon_contain_ly:hover {
+.menu-icon-contain-ly:hover {
   height: 70px;
   width: 60px;
 }
 
-.menu_icon_contain_ly:hover .menu_desplega_ly {
+.menu-icon-contain-ly:hover .menu-desplega-ly {
   opacity: 1;
 }
 
-.menu_icon_contain_ly:hover .menu_icon_item_ly:nth-child(1) {
+.menu-icon-contain-ly:hover .menu-icon-item-ly:nth-child(1) {
   transition-timing-function: ease;
   transform: rotate(-90deg);
   left: -20px;
 }
 
-.menu_icon_contain_ly:hover .menu_icon_item_ly:nth-child(2) {
+.menu-icon-contain-ly:hover .menu-icon-item-ly:nth-child(2) {
   transition-delay: 100ms;
   transition-timing-function: ease;
   transform: rotate(-90deg);
   left: -20px;
 }
 
-.menu_icon_contain_ly:hover .menu_icon_item_ly:nth-child(3) {
+.menu-icon-contain-ly:hover .menu-icon-item-ly:nth-child(3) {
   transition-delay: 400ms;
   transition-timing-function: ease;
   transform: rotate(-90deg);
   left: -20px;
 }
 
-.portada_ly {
+.portada-ly {
   min-height: 80vh;
   align-content: center;
   padding: 0 35.5%;
 }
 
-.boton_ly {
+.boton-ly {
   margin-top: 400%;
   padding: 5.5% 2%;
 }
 
-.main_ly {
+.main-ly {
   padding: 2% 3%;
 }
 
-.galeria_grid_ly {
+.galeria-grid-ly {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
-.item1_img_ly {
+.item1-img-ly {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -125,21 +125,21 @@
   border-top-left-radius: 3%;
 }
 
-.imagen1_ly {
+.imagen1-ly {
   display: block;
   height: 125px;
   width: 125px;
-  background-image: url("../photos/palitos_barro.jpg");
+  background-image: url("public/assets/series/palitos-barro.jpg");
   background-size: 100%;
 }
 
-.imagen1_ly:hover .item1_img_ly {
+.imagen1-ly:hover .item1-img-ly {
   transition-duration: 1.5s;
   height: 125px;
   width: 125px;
 }
 
-.item2_img_ly {
+.item2-img-ly {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -149,21 +149,21 @@
   border-top-right-radius: 3%;
 }
 
-.imagen2_ly {
+.imagen2-ly {
   display: block;
   height: 125px;
   width: 125px;
-  background-image: url("../photos/mini_maceta_barro.jpg");
+  background-image: url("public/assets/series/mini-maceta-barro.jpg");
   background-size: 100%;
 }
 
-.imagen2_ly:hover .item2_img_ly {
+.imagen2-ly:hover .item2-img-ly {
   transition-duration: 1.5s;
   height: 125px;
   width: 125px;
 }
 
-.item3_img_ly {
+.item3-img-ly {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
@@ -173,21 +173,21 @@
   border-bottom-left-radius: 3%;
 }
 
-.imagen3_ly {
+.imagen3-ly {
   display: block;
   height: 125px;
   width: 125px;
-  background-image: url("../photos/setita_ceramica.jpg");
+  background-image: url("public/assets/series/setita-ceramica.jpg");
   background-size: 100%;
 }
 
-.imagen3_ly:hover .item3_img_ly {
+.imagen3-ly:hover .item3-img-ly {
   transition-duration: 1.5s;
   height: 125px;
   width: 125px;
 }
 
-.item4_img_ly {
+.item4-img-ly {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -197,42 +197,42 @@
   border-bottom-right-radius: 3%;
 }
 
-.imagen4_ly {
+.imagen4-ly {
   display: block;
   height: 125px;
   width: 125px;
-  background-image: url("../photos/conjunto_barrito.jpg");
+  background-image: url("public/assets/series/conjunto-barrito.jpg");
   background-size: 100%;
 }
 
-.imagen4_ly:hover .item4_img_ly {
+.imagen4-ly:hover .item4-img-ly {
   transition-duration: 1.5s;
   height: 125px;
   width: 125px;
 }
 
-.footer_ly {
+.footer-ly {
   padding: 2% 3% 0.3%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
-.signature_ly {
+.signature-ly {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 
-.aboutus_ly {
+.aboutus-ly {
   grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 3;
 }
 
-.RRSS_ly {
+.RRSS-ly {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
