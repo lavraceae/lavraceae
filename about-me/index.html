@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Acerca de mi</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="About me Bicacarte" />
+    <meta name="author" content="Laura Bernabeu Armas" />
+    <link rel="stylesheet" href="public/styles/globals.css" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="skin.css" />
+    <base href="/" />
+  </head>
+
+  <body>
+    <header class="header-ly header-sk">
+      <div class="container-pre">
+        <ul class="presentacion-ly">
+          <!--logo + nombre de la página usando flexbox-->
+          <li>
+            <img
+              src="public/assets/logo/bicacarte.jpg"
+              alt="an icon of a flower"
+              style="height: 10vh; min-height: 50px"
+            />
+          </li>
+          <li class="txt-tit-header-sk txt-tit-header-ly"><p>Bicacarte</p></li>
+        </ul>
+      </div>
+      <div class="container-men">
+        <ul class="menu-ly">
+          <!--menú flexbox-->
+          <li style="list-style-type: none" class="txt-menu-sk">
+            <div class="menu-icon-contain-ly menu-icon-contain-sk">
+              <div class="menu-icon-item-ly menu-icon-item-sk"></div>
+              <div class="menu-icon-item-ly menu-icon-item-sk"></div>
+              <div class="menu-icon-item-ly menu-icon-item-sk"></div>
+              <div class="menu-desplega-ly menu-desplega-sk">
+                <a class="txt-menu-desplega-sk" href="cocina">Cocina</a>
+                <a class="txt-menu-desplega-sk" href="jardin">Jardín</a>
+                <a class="txt-menu-desplega-sk" href="decoracion">Decoración</a>
+              </div>
+            </div>
+          </li>
+          <li style="list-style-type: none">
+            <a class="txt-menu-sk" href="/">Home</a>
+          </li>
+          <li style="list-style-type: none">
+            <a class="txt-menu-sk" href="/about-me">Conóceme</a>
+          </li>
+          <li style="list-style-type: none">
+            <a class="txt-menu-sk" href="/shop">Tienda</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!--Área marcada por grid-->
+    <main class="main-ly main-sk">
+      <div class="sheet-container-ly">
+        <div class="row1-left-sheet-ly">
+          <h1>Sobre mí</h1>
+          <br />
+          <br />
+          <br />
+
+          <p style="width: 80%">
+            Me defino como una chica con espíritu de Leshide*. Me siento como en
+            casa en la naturaleza, y me irrita que abunden los plásticos y los
+            tóxicos sintéticos por doquier. Tengo más hobbies además de este
+            espacio, como dibujar botánica y fantasía, o escribir poesía. Mi
+            carrera laboral se está fraguando aún, pero me encantaría poder
+            dedicarme a los cuidados holísticos o tener una tienda zero waste.
+            Me gano los garbanzos dando clases particulares o de la forma que se
+            me ocurra. Por ahora soy estudiante de diseño gráfico, y aunque no
+            sea mi pasión, le sacaré rendimiento al título.
+            <br />
+            <br />
+            Mi mantra favorito es: "We are bountiful, blissful and beautiful"
+            <br />
+            <br />
+            *Lxs Leshides son hadas solitarias que custodian los bosques, no
+            soportan cuando alguien que ingresa en su espacio hable alto o deje
+            residuos en la naturaleza.
+          </p>
+        </div>
+        <div class="row2-left-sheet-ly">
+          <br />
+          <br />
+          <br />
+          <h5>Contáctame</h5>
+          <br />
+          <br />
+          <form>
+            <div class="input-flex-ly">
+              <div>
+                <label class="txt-form-sk" for="nombre">Primer nombre</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Tu nombre"
+                />
+              </div>
+              <div>
+                <label class="txt-form-sk" for="apellido">Apellidos</label>
+                <input
+                  type="text"
+                  id="apellido"
+                  name="apellido"
+                  placeholder="Tus apellidos"
+                />
+              </div>
+            </div>
+
+            <label class="txt-form-sk" for="email">Dirección email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Tu email"
+            />
+            <br /><br />
+            <label class="txt-form-sk" for="mensaje">Tu mensaje</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              placeholder="Escribe tu pregunta o tu mensaje"
+            ></textarea>
+            <br /><br />
+            <button type="submit">Aceptar</button>
+          </form>
+        </div>
+
+        <div class="row1-right-sheet-ly">
+          <img
+            style="width: 110%"
+            src="public/assets/author/laura-bernabeu.jpg"
+            alt="Imagen de la dueña del espacio."
+          />
+        </div>
+      </div>
+    </main>
+
+    <!--Footer marcado por grid-->
+    <footer class="footer-ly footer-sk">
+      <p class="signature-ly txt-signature-sk">Bicacarte</p>
+
+      <ul class="aboutus-ly">
+        <li class="txt-tit-about-sk"><p>El espacio</p></li>
+        <li class="txt-about-sk">
+          <a
+            href="localizacion"
+            style="text-decoration: none; color: rgba(137, 44, 3, 77)"
+            target="-blank"
+            >Dónde encontrarme</a
+          >
+        </li>
+        <li class="txt-about-sk">
+          <a
+            href="about-the-space"
+            style="text-decoration: none; color: rgba(137, 44, 3, 77)"
+            target="-blank"
+            >Sobre el espacio</a
+          >
+        </li>
+        <li class="txt-about-sk">
+          <a
+            href="./index.html"
+            style="text-decoration: none; color: rgba(137, 44, 3, 77)"
+            target="-blank"
+            >Sobre mí</a
+          >
+        </li>
+      </ul>
+
+      <table class="RRSS-ly">
+        <tr>
+          <td>
+            <a href="https://es.pinterest.com/"
+              ><img
+                src="public/assets/social-media/pinterest.png"
+                alt="logo-pinterest"
+            /></a>
+          </td>
+          <td>
+            <a href="https://www.instagram.com/bicacarte/"
+              ><img
+                src="public/assets/social-media/instagram.png"
+                alt="logo-instagram"
+            /></a>
+          </td>
+          <td>
+            <a href="https://www.facebook.com/?locale=es-ES"
+              ><img
+                src="public/assets/social-media/facebook.png"
+                alt="logo-facebook"
+            /></a>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>
