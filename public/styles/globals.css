@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "inter-variable-opsz";
+  src: url("../fonts/inter-variable-opsz.ttf") format("truetype");
+}
+
+html {
+  overflow-x: hidden;
+}

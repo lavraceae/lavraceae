@@ -1,0 +1,517 @@
+.header-sk {
+  background-color: rgb(254, 237, 183);
+}
+
+.txt-tit-header-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 120%;
+  color: rgb(112, 34, 0);
+  list-style-type: none;
+}
+
+.txt-menu-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 80%;
+  color: rgb(112, 34, 0);
+  text-decoration: none;
+}
+
+.menu-icon-contain-sk {
+  background-color: rgb(112, 34, 0);
+}
+
+.menu-icon-item-sk {
+  background-color: rgb(254, 237, 183);
+}
+
+.txt-menu-desplega-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 80%;
+  color: rgb(254, 237, 183);
+  text-decoration: none;
+}
+
+.portada-sk {
+  background-image: url("public/assets/backgrounds/capullos-de-bicacaro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.txt-tit-portad-sk {
+  color: rgb(254, 237, 183);
+  font-family: "inter-variable-opsz";
+  font-size: 350%;
+  font-weight: bold;
+}
+
+.boton-sk {
+  background-color: rgb(137, 44, 3);
+  border-radius: 8%;
+  color: rgb(254, 237, 183);
+  font-family: "inter-variable-opsz";
+  font-size: 150%;
+  text-decoration: none;
+}
+
+.main-sk {
+  background-color: rgb(255, 245, 215);
+}
+
+h2 {
+  font-family: "inter-variable-opsz";
+  font-size: 250%;
+  font-weight: bold;
+  color: rgb(112, 34, 0);
+}
+
+.anima1-img1-sk {
+  animation-name: transicion1-img1;
+}
+
+.anima1-img2-sk {
+  animation-name: transicion1-img2;
+}
+
+.anima1-img3-sk {
+  animation-name: transicion1-img3;
+}
+
+.anima1-img4-sk {
+  animation-name: transicion1-img4;
+}
+
+@keyframes transicion1-img1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes transicion1-img2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes transicion1-img3 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes transicion1-img4 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.anima2-img1-sk {
+  animation-name: transicion2-img1;
+}
+
+.anima2-img2-sk {
+  animation-name: transicion2-img2;
+}
+
+.anima2-img3-sk {
+  animation-name: transicion2-img3;
+}
+
+.anima2-img4-sk {
+  animation-name: transicion2-img4;
+}
+
+@keyframes transicion2-img1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes transicion2-img2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes transicion2-img3 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes transicion2-img4 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.anima3-img1-sk {
+  animation-name: transicion3-img1;
+}
+
+.anima3-img2-sk {
+  animation-name: transicion3-img2;
+}
+
+.anima3-img3-sk {
+  animation-name: transicion3-img3;
+}
+
+.anima3-img4-sk {
+  animation-name: transicion3-img4;
+}
+
+@keyframes transicion3-img1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes transicion3-img2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes transicion3-img3 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes transicion3-img4 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.anima4-img1-sk {
+  animation-name: transicion4-img1;
+}
+
+.anima4-img2-sk {
+  animation-name: transicion4-img2;
+}
+
+.anima4-img3-sk {
+  animation-name: transicion4-img3;
+}
+
+.anima4-img4-sk {
+  animation-name: transicion4-img4;
+}
+
+@keyframes transicion4-img1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes transicion4-img2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes transicion4-img3 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes transicion4-img4 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.row-anima-k {
+  position: relative;
+}
+
+.imagen-sk {
+  position: absolute;
+  opacity: 0;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.txt-tit-nu-col-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 100%;
+  font-weight: bold;
+  color: rgb(112, 34, 0);
+  text-decoration: none;
+}
+
+.txt-parr-nu-col-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 100%;
+  color: rgb(112, 34, 0);
+}
+
+.txt-tit-nltr-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 120%;
+  font-weight: 500;
+  color: rgb(112, 34, 0);
+  text-decoration: none;
+}
+
+.txt-parr-nltr-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 120%;
+  font-weight: 400%;
+  color: rgba(112, 34, 0, 0.67);
+}
+
+.suscripcion-sk {
+  border: 1.5px solid;
+  border-color: rgb(112, 34, 0);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.suscripcion-sk input {
+  border: none;
+  outline: none;
+  font-family: "inter-variable-opsz";
+  font-size: 120%;
+  color: rgba(112, 34, 0, 0.86);
+  border-radius: 999px 0 0 999px;
+  background-color: white;
+}
+
+.suscripcion-sk button {
+  border: none;
+  border-color: rgb(186, 57, 0);
+  background-color: rgb(186, 57, 0);
+  color: white;
+  font-family: "inter-variable-opsz";
+  font-size: 100%;
+  border-radius: 0 999px 999px 0;
+  cursor: pointer;
+}
+
+.suscripcion-sk button:hover {
+  background-color: rgb(137, 44, 3);
+}
+
+.footer-sk {
+  background-color: rgb(254, 237, 183);
+}
+
+.txt-signature-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 103%;
+  color: rgb(112, 34, 0);
+}
+
+.txt-tit-about-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 75%;
+  color: rgb(112, 34, 0);
+  list-style-type: none;
+}
+
+.txt-about-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 75%;
+  color: rgba(137, 44, 3, 0.77);
+  list-style-type: none;
+}

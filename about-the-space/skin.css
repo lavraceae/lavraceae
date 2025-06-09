@@ -1,0 +1,123 @@
+
+.header-sk {
+  background-color: rgb(254, 237, 183);
+}
+
+.txt-tit-header-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 120%;
+  color: rgb(112, 34, 0);
+  list-style-type: none;
+}
+
+.txt-menu-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 80%;
+  color: rgb(112, 34, 0);
+  text-decoration: none;
+}
+
+.menu-icon-contain-sk {
+  background-color: rgb(112, 34, 0);
+}
+
+.menu-icon-item-sk {
+  background-color: rgb(254, 237, 183);
+}
+
+.txt-menu-desplega-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 80%;
+  color: rgb(254, 237, 183);
+  text-decoration: none;
+}
+
+.main-sk {
+  background-color: rgb(255, 245, 215);
+}
+
+h1 {
+  font-family: "inter-variable-opsz";
+  font-size: 355%;
+  font-weight: bold;
+  color: rgb(112, 34, 0);
+}
+
+h6 {
+  font-family: "inter-variable-opsz";
+  font-size: 150%;
+  font-weight: 400;
+  color: rgba(112, 34, 0, 0.67);
+}
+
+h5 {
+  font-family: "inter-variable-opsz";
+  font-size: 200%;
+  font-weight: 600;
+  color: rgb(112, 34, 0);
+}
+
+p {
+  font-family: "inter-variable-opsz";
+  font-size: 110%;
+  color: rgb(112, 34, 0);
+}
+
+.txt-form-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 110%;
+  font-weight: 400;
+  color: rgb(112, 34, 0);
+}
+
+label {
+  font-weight: 600;
+}
+
+input,
+textarea {
+  border: 1.5px solid;
+  border-radius: 8px;
+  border-color: rgb(112, 34, 0);
+  font-family: "inter-variable-opsz";
+  font-size: 100%;
+  color: rgba(112, 34, 0, 0.86);
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(186, 57, 0);
+  font-family: "inter-variable-opsz";
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(137, 44, 3);
+}
+
+.footer-sk {
+  background-color: rgb(254, 237, 183);
+}
+
+.txt-signature-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 103%;
+  color: rgb(112, 34, 0);
+}
+
+.txt-tit-about-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 75%;
+  color: rgb(112, 34, 0);
+  list-style-type: none;
+}
+
+.txt-about-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 75%;
+  color: rgba(137, 44, 3, 0.77);
+  list-style-type: none;
+}
