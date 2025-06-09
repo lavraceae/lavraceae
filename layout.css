@@ -169,7 +169,7 @@
 }
 
 .area-nltr-ly {
-  margin-top: 50%;
+  margin-top: 70%;
   padding-top: 10%;
   padding-bottom: 10%;
   grid-column-start: 1;
@@ -177,7 +177,7 @@
 }
 
 .area-foto-ly {
-  margin-top: 50%;
+  margin-top: 70%;
   grid-column-start: 2;
   grid-column-end: 3;
 }
