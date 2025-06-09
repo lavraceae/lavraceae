@@ -115,100 +115,34 @@
   grid-template-rows: 1fr 1fr;
 }
 
-.item1-img-ly {
+.image1-container-ly {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
-  height: 100px;
-  width: 1px;
-  border-top-left-radius: 3%;
+  margin-left: 750px;
 }
 
-.imagen1-ly {
-  display: block;
-  height: 125px;
-  width: 125px;
-  background-image: url("../public/assets/series/palitos-barro.jpg");
-  background-size: 100%;
-}
-
-.imagen1-ly:hover .item1-img-ly {
-  transition-duration: 1.5s;
-  height: 125px;
-  width: 125px;
-}
-
-.item2-img-ly {
+.image2-container-ly {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
-  height: 100px;
-  width: 100px;
-  border-top-right-radius: 3%;
 }
 
-.imagen2-ly {
-  display: block;
-  height: 125px;
-  width: 125px;
-  background-image: url("../public/assets/series/mini-maceta-barro.jpg");
-  background-size: 100%;
-}
-
-.imagen2-ly:hover .item2-img-ly {
-  transition-duration: 1.5s;
-  height: 125px;
-  width: 125px;
-}
-
-.item3-img-ly {
+.image3-container-ly {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  height: 100px;
-  width: 100px;
-  border-bottom-left-radius: 3%;
+  margin-left: 750px;
 }
 
-.imagen3-ly {
-  display: block;
-  height: 125px;
-  width: 125px;
-  background-image: url("../public/assets/series/setita-ceramica.jpg");
-  background-size: 100%;
-}
-
-.imagen3-ly:hover .item3-img-ly {
-  transition-duration: 1.5s;
-  height: 125px;
-  width: 125px;
-}
-
-.item4-img-ly {
+.image4-container-ly {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
-  grid-row-end: 3;
-  height: 100px;
-  width: 100px;
-  border-bottom-right-radius: 3%;
-}
-
-.imagen4-ly {
-  display: block;
-  height: 125px;
-  width: 125px;
-  background-image: url("../public/assets/series/conjunto-barrito.jpg");
-  background-size: 100%;
-}
-
-.imagen4-ly:hover .item4-img-ly {
-  transition-duration: 1.5s;
-  height: 125px;
-  width: 125px;
+  grid-row-end: 3
 }
 
 .footer-ly {
