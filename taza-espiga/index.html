@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Taza Espiga Bicacarte" />
+    <meta name="author" content="Laura Bernabeu Armas" />
+    <link rel="stylesheet" href="../public/styles/globals.css" />
+    <link rel="stylesheet" href="./layout.css" />
+    <link rel="stylesheet" href="./skin.css" />
+  </head>
+
+  <body>
+    <header class="header-ly header-sk">
+      <div class="container-pre">
+        <ul class="presentacion-ly">
+          <!--logo + nombre de la página usando flexbox-->
+          <li>
+            <img
+              src="../public/assets/logo/bicacarte.jpg"
+              alt="an icon of a flower"
+              style="height: 10vh; min-height: 50px"
+            />
+          </li>
+          <li class="txt-tit-header-sk txt-tit-header-ly"><p>Bicacarte</p></li>
+        </ul>
+      </div>
+      <div class="container-men">
+        <ul class="menu-ly">
+          <!--menú flexbox-->
+          <li style="list-style-type: none" class="txt-menu-sk">
+            <div class="menu-icon-contain-ly menu-icon-contain-sk">
+              <div class="menu-icon-item-ly menu-icon-item-sk"></div>
+              <div class="menu-icon-item-ly menu-icon-item-sk"></div>
+              <div class="menu-icon-item-ly menu-icon-item-sk"></div>
+              <div class="menu-desplega-ly menu-desplega-sk">
+                <a class="txt-menu-desplega-sk" href="../cocina"
+                  >Cocina</a
+                >
+                <a class="txt-menu-desplega-sk" href="../jardin"
+                  >Jardín</a
+                >
+                <a class="txt-menu-desplega-sk" href="../decoracion"
+                  >Decoración</a
+                >
+              </div>
+            </div>
+          </li>
+          <li style="list-style-type: none">
+            <a class="txt-menu-sk" href="../index.html">Home</a>
+          </li>
+          <li style="list-style-type: none">
+            <a class="txt-menu-sk" href="../about-me">Conóceme</a>
+          </li>
+          <li style="list-style-type: none">
+            <a class="txt-menu-sk" href="../shop">Tienda</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!--Área marcada por grid-->
+    <main class="main-ly main-sk">
+      <div class="grid-area-product-detail-ly">
+        <div class="grid-area-image-ly image-cage-sk">
+          <img src="../public/assets/series/taza-espiga.jpg" alt="Taza de arcilla naranja con motivos egipcios."/>
+        </div>
+
+        <div class="grid-area-description-ly">
+          <h1>Taza Espiga</h1>
+          <br/>
+          <br/>
+          <h6>Hecha con arcilla naranja e ilustraciones en carbón.</h6>
+          <br/>
+          <br/>
+          <h5>13,50 €</h5>
+          <br/>
+          <br/>
+          <p class="txt-product-description-sk">Estilo egipcio. Uso principal como recipiente.</p>
+          <br/>
+          <br/>
+          <input class="prod-det-button-sk" type="button" value="Comprar">
+        </div>
+      </div>
+    </main>
+
+    <!--Footer marcado por grid-->
+    <footer class="footer-ly footer-sk">
+      <p class="signature-ly txt-signature-sk">Bicacarte</p>
+
+      <ul class="aboutus-ly">
+        <li class="txt-tit-about-sk"><p>El espacio</p></li>
+        <li class="txt-about-sk">
+          <a
+            href="../localizacion"
+            style="text-decoration: none; color: rgba(137, 44, 3, 77)"
+            target="-blank"
+            >Dónde encontrarme</a
+          >
+        </li>
+        <li class="txt-about-sk">
+          <a
+            href="../about-the-space"
+
+            style="text-decoration: none; color: rgba(137, 44, 3, 77)"
+            target="-blank"
+            >Sobre el espacio</a
+          >
+        </li>
+        <li class="txt-about-sk">
+          <a
+            href="../about-me"
+            style="text-decoration: none; color: rgba(137, 44, 3, 77)"
+            target="-blank"
+            >Sobre mí</a
+          >
+        </li>
+      </ul>
+
+      <table class="RRSS-ly">
+        <tr>
+          <td>
+            <a href="https://es.pinterest.com/"
+              ><img
+                src="../public/assets/social-media/pinterest.png"
+                alt="logo-pinterest"
+            /></a>
+          </td>
+          <td>
+            <a href="https://www.instagram.com/bicacarte/"
+              ><img src="../public/assets/social-media/instagram.png" alt="logo-instagram"
+            /></a>
+          </td>
+          <td>
+            <a href="https://www.facebook.com/?locale=es-ES"
+              ><img src="../public/assets/social-media/facebook.png" alt="logo-facebook"
+            /></a>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>
