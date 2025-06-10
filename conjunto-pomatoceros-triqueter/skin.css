@@ -49,6 +49,64 @@
   background-color: rgb(255, 245, 215);
 }
 
+h1 {
+  font-family: "inter-variable-opsz";
+  font-size: 270%;
+  color: rgb(112, 34, 0);
+}
+
+h6 {
+  font-family: "inter-variable-opsz";
+  font-size: 140%;
+  font-weight: 400;
+  color: rgba(112, 34, 0, 0.76);
+}
+
+h5{
+  font-family: "inter-variable-opsz";
+  font-size: 150%;
+  color: rgba(112, 34, 0);
+}
+
+.image-cage-sk img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 3%;
+
+}
+
+.image-cage-sk {
+  height: 500px;
+  width: 500px;
+  display: block;
+
+}
+
+.txt-product-description-sk {
+  font-family: "inter-variable-opsz";
+  font-size: 120%;
+  font-weight: 400;
+  color: rgb(112, 34, 0, 0.76);
+}
+
+.prod-det-button-sk {
+  height: 50px;
+  width: 350px;
+  border-radius: 8px;
+  background-color: rgb(186, 57, 0);
+  font-family: "inter-variable-opsz";
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.prod-det-button-sk:hover {
+  background-color: rgb(137, 44, 3);
+}
+
 .footer-sk {
   background-color: rgb(254, 237, 183);
 }

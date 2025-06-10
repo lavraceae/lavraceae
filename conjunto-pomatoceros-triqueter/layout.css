@@ -65,7 +65,6 @@
   transition-duration: 2s;
 }
 
-/*revisar este conjunto de clases para que el resto de clase funcionen*/
 .menu-icon-contain-ly:hover {
   height: 70px;
   width: 60px;
@@ -73,8 +72,6 @@
 .menu-icon-contain-ly:hover .menu-desplega-ly {
   opacity: 1;
 }
-
-/*estas clases de la transición del icono funcionan*/
 
 .menu-icon-contain-ly:hover .menu-icon-item-ly:nth-child(1) {
   transition-timing-function: ease;
@@ -109,6 +106,27 @@
 
 .main-ly {
   padding: 2% 3%;
+}
+
+.grid-area-product-detail-ly {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15%;
+}
+
+.grid-area-image-ly {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-left: 5%;
+}
+
+.grid-area-desription-ly {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.prod-det-button-ly {
+  padding-top: 1.8%;;
 }
 
 .footer-ly {
