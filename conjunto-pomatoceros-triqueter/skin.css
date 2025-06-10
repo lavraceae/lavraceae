@@ -94,6 +94,7 @@ h5{
 .prod-det-button-sk {
   height: 50px;
   width: 350px;
+  border: none;
   border-radius: 8px;
   background-color: rgb(186, 57, 0);
   font-family: "inter-variable-opsz";
