@@ -112,7 +112,8 @@
 .galeria-grid-ly {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: 200px;
+  max-width: 1200px;
 }
 
  .image1-container-ly {
